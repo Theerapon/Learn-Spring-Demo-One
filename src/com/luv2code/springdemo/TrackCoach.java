@@ -20,4 +20,12 @@ public class TrackCoach implements Coach {
 		return "Just Do It: " + fortuneService.getForture();
 	}
 
+	public void doMyStartupStuff() {
+		System.out.println("TrackCoach: inside method doMyStartupStuff");
+	}
+	
+	public void doMyCleanupStuffYoYo() {
+		System.out.println("TrackCoach: inside method doMyCleanupStuffYoYo");
+	}
+	
 }
